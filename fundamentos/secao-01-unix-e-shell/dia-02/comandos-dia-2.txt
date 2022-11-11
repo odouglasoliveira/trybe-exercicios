@@ -1,0 +1,15 @@
+cat - também pode ser usado pra receber valores como input de dados
+
+sort - exibe os valores do arquivo em ordem alfabetica
+
+who - mostra quem esta usando o terminal
+
+chmod - usado para alterar as permissões do usuario
+
+ps - exibe os processos
+
+find - é um comando para pesquisar por arquivos ou pastas em diretórios (os parametros passados devem ser name, date, size ou type)
+
+history - é um mando que mostra o histórico que comandos que voce executou no terminal
+
+echo - é um comando utilizado em scripts para exibir mensagens na tela ou em um arquivo

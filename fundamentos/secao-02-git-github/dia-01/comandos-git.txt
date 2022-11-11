@@ -1,0 +1,13 @@
+git commit -m “mensagem” (envia um commit com a mensagem escrita)
+
+git checkout -b nome-da-branch (cria uma nova branch e altera pra ela)
+
+git checkout nome-da-branch (muda para a branch nomeada)
+
+git branch (mostra todas as branches criadas)
+
+git fetch (verifica se tem atualizações na mesma branch no repositório remoto)
+
+git pull (atualiza o repositório local)
+
+git push (envia os arquivos pro repositório remoto)

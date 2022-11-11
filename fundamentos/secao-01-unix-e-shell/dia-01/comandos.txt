@@ -1,0 +1,49 @@
+Unix - Sistema operacional que originou a variação Ubuntu.
+
+ls | lista arquivos e diretórios
+
+ls -a | lista todos os arquivos e diretórios
+
+mkdir | cria um diretório
+
+cd <caminho do diretório> | muda para o diretório nomeado
+
+cd | muda para o diretório inicial
+
+cd ~ | muda para o diretório inicial
+
+cd .. | muda para o diretório pai
+
+pwd | mostra o caminho do diretório atual
+
+cp <arquivo1> <arquivo2> | copia o arquivo1 e o chama de arquivo2
+
+mv <arquivo1> <arquivo2> | move ou renomeia arquivo1 para arquivo2
+
+rm <arquivo> | remove arquivo
+
+rmdir <diretório> | remove um diretório vázio
+
+rm
+
+cat <arquivo> | exibe um arquivo
+
+less <arquivo> | exibe um arquivo uma pagina por vez
+
+head <arquivo> | exibe as primeiras linhas de um arquivo
+
+tail <arquivo> | exibe as ultimas linhas de um arquivo
+
+grep ‘palavras-chave’ <arquivo> | procura por palavras-chave no arquivo
+
+wc <arquivo> | conta o numero de linhas / palavras / caracteres no arquivo
+
+‘*’ | corresponde a qualquer numero de caracter
+
+? | corresponde a um caracter
+
+man <comando> | le a pagina do manual online do comando informado
+
+whatis <comando> | breve descrição do comando informado
+
+apropos ‘palavra-chave’ | corresponde a comandos com palavras-chave em suas paginas de manual
