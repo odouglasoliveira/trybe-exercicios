@@ -4,4 +4,4 @@ function verificafinal (string, ending) {
     console.log(string.endsWith(ending))
 }
 
-verificafinal('trybe', 'trybe')
+verificafinal('trybe', 'be')
