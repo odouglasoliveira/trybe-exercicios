@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Desafio - JavaEscripito</h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p id="descricao">-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      function alteraParagrafo() {
+        const paragrafo = document.getElementById("descricao");
+        paragrafo.innerHTML = "Daqui dois anos eu me vejo empregado como Dev, me vejo morando em um lugar diferente, com uma rotina completamente diferente. Também me vejo conseguindo praticar meus hobbies.";
+      }
+      alteraParagrafo();
+
+      function alteraCor() {
+        document.getElementsByClassName("main-content")[0].style.backgroundColor = "rgb(76,164,109)";
+      }
+      alteraCor();
+      function alteraFundo() {
+        document.getElementsByClassName("center-content")[0].style.backgroundColor = "white";
+      }
+      alteraFundo();
+      function corrigeTitulo() {
+        document.getElementsByClassName("title")[0].innerHTML = "Desafio - JavaScript";
+      }
+      corrigeTitulo();
+      function tituloMaiusculo() {
+        const titulo = document.querySelector("p").innerText;
+        document.querySelector("p").innerHTML = titulo.toUpperCase()
+      }
+      tituloMaiusculo();
+      function exibeConsole() {
+        console.log(document.querySelectorAll("p"))
+      }
+      exibeConsole();
+    </script>
+  </body>
+</html>
