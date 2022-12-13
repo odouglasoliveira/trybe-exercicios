@@ -31,3 +31,15 @@ const createDaysOfTheWeek = () => {
     }
     newDay.innerText = decemberDaysList[i];
   } 
+  
+  function createHoliday (string) {
+      const btnContainer = document.querySelector('.buttons-container');
+      const button = document.createElement('button');
+      button.id = 'btn-holiday'
+      button.innerText = string;
+      btnContainer.appendChild(button);
+    }
+    
+    createHoliday('Feriados');
+
+    
