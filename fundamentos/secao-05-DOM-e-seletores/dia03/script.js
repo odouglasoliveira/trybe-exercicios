@@ -97,3 +97,15 @@ const createDaysOfTheWeek = () => {
     }
 
     createTask('cozinhar');
+
+    function insertColor(color) {
+        const taskList = document.querySelector('.my-tasks');
+        const newDiv = document.createElement('div');
+        newDiv.className = 'task';
+        newDiv.style.backgroundColor = color;
+        taskList.appendChild(newDiv);
+    }
+
+    insertColor('green');
+
+    
