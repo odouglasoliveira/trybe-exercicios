@@ -1,0 +1,11 @@
+#control {
+    display: flex;
+    justify-content: center;
+    border: 2px solid green;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}

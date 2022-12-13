@@ -1,26 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exemplo WebStorage</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Aplicando o DOM</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Diferenças de armazenamento entre LocalStorage e WebStorage</h1>
-  </header>
-  <main>
-    <section>
-      <h2>Frases armazenadas</h2>
-      <input type="text" id="phrases-input" />
-      <button id="add-button">Adicionar frase</button>
-      <div>
-        <ul id="phrases-list">
-        </ul>
-      </div>
-    </section>
-  </main>
-  <script src="script.js"></script>
+    <div id="control">
+        <div class="bgcolor panel">
+            <h3>Cor de fundo</h3>
+            <button>white</button>
+            <button>black</button>
+            <button>green</button>
+            <button>blue</button>
+            <button>yellow</button>
+        </div>
+
+        <div class="font-color panel">
+            <h3>Cor da fonte</h3>
+            <button>black</button>
+            <button>red</button>
+            <button>white</button>
+        </div>
+
+        <div class="font-size panel">
+            <h3>Tamanho da fonte</h3>
+            <button>8pt</button>
+            <button>10pt</button>
+            <button>12pt</button>
+            <button>14pt</button>
+            <button>20pt</button>
+        </div>
+
+        <div class="line-spaces panel">
+            <h3>Espaçamento entre as linhas</h3>
+            <button>1</button>
+            <button>normal</button>
+            <button>1.5</button>
+            <button>2.0</button>
+            <button>3.0</button>
+        </div>
+
+        <div class="font-type panel">
+            <h3>Tipo da fonte</h3>
+            <button>Arial</button>
+            <button>Times New Roman</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
