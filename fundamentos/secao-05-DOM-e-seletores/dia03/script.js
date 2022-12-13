@@ -62,5 +62,50 @@ const createDaysOfTheWeek = () => {
         button.innerText = string;
         btnContainer.appendChild(button)
     }
-
     createFriday('Sexta-feira')
+
+
+    function modifyFriday() {
+        const button = document.getElementById('btn-friday');
+        const days = document.querySelectorAll('.friday');
+        button.addEventListener('click', () => {
+            for (value of days) {
+                value.innerText = 'Sextou'
+            }
+        })
+    }
+    modifyFriday();
+
+
+    function zoom() {
+        const days = document.querySelector('#days');
+        days.addEventListener('mouseover', (event) => {
+            event.target.style.fontSize = '32px'
+        },
+        days.addEventListener('mouseout', (event) => {
+            event.target.style.fontSize = '20px'
+        }))
+    }
+
+    zoom();
+
+    function createTask(string) {
+        const taskList = document.querySelector('.my-tasks');
+        const newTask = document.createElement('span');
+        newTask.innerText = string;
+        taskList.appendChild(newTask);
+    }
+
+    createTask('cozinhar');
+
+    function insertColor(color) {
+        const taskList = document.querySelector('.my-tasks');
+        const newDiv = document.createElement('div');
+        newDiv.className = 'task';
+        newDiv.style.backgroundColor = color;
+        taskList.appendChild(newDiv);
+    }
+
+    insertColor('green');
+
+    
