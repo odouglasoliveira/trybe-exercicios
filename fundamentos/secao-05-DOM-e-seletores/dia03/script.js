@@ -53,3 +53,14 @@ const createDaysOfTheWeek = () => {
         }
     }
     changeColor()
+
+
+    function createFriday (string) {
+        const btnContainer = document.querySelector('.buttons-container')
+        const button = document.createElement('button');
+        button.id = 'btn-friday';
+        button.innerText = string;
+        btnContainer.appendChild(button)
+    }
+
+    createFriday('Sexta-feira')
