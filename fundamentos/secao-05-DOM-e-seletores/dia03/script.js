@@ -68,7 +68,7 @@ const createDaysOfTheWeek = () => {
     function modifyFriday() {
         const button = document.getElementById('btn-friday');
         const days = document.querySelectorAll('.friday');
-        button.addEventListener('click', (event) => {
+        button.addEventListener('click', () => {
             for (value of days) {
                 value.innerText = 'Sextou'
             }
@@ -88,3 +88,12 @@ const createDaysOfTheWeek = () => {
     }
 
     zoom();
+
+    function createTask(string) {
+        const taskList = document.querySelector('.my-tasks');
+        const newTask = document.createElement('span');
+        newTask.innerText = string;
+        taskList.appendChild(newTask);
+    }
+
+    createTask('cozinhar');
