@@ -42,4 +42,14 @@ const createDaysOfTheWeek = () => {
     
     createHoliday('Feriados');
 
-    
+
+    function changeColor() {
+        const holidays = document.querySelectorAll('.holiday');
+        const button = document.getElementById('btn-holiday');
+        for (let i = 0; i < holidays.length; i += 1) {
+            button.addEventListener('click', () => {
+                holidays[i].style.backgroundColor = 'black'
+            })
+        }
+    }
+    changeColor()
