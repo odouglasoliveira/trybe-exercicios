@@ -62,5 +62,19 @@ const createDaysOfTheWeek = () => {
         button.innerText = string;
         btnContainer.appendChild(button)
     }
-
     createFriday('Sexta-feira')
+
+
+    function modifyFriday() {
+        const button = document.getElementById('btn-friday');
+        const days = document.querySelectorAll('.friday');
+        button.addEventListener('click', (event) => {
+            for (value of days) {
+                value.innerText = 'Sextou'
+            }
+        })
+    }
+    modifyFriday();
+
+
+    
