@@ -77,4 +77,14 @@ const createDaysOfTheWeek = () => {
     modifyFriday();
 
 
-    
+    function zoom() {
+        const days = document.querySelector('#days');
+        days.addEventListener('mouseover', (event) => {
+            event.target.style.fontSize = '32px'
+        },
+        days.addEventListener('mouseout', (event) => {
+            event.target.style.fontSize = '20px'
+        }))
+    }
+
+    zoom();
