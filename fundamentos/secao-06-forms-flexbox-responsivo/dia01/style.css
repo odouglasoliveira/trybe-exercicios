@@ -1,0 +1,20 @@
+button {
+  color: gray;
+  padding: 0.5rem 1rem;
+}
+
+fieldset {
+  color: gray;
+}
+
+label {
+  margin: 5px;
+}
+
+header {
+  color: gray;
+}
+
+#date {
+  color: gray;
+}
