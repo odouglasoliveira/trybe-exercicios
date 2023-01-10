@@ -9,3 +9,7 @@
     flex-direction: column;
     margin: auto;
 }
+
+main {
+    text-align: center;
+}

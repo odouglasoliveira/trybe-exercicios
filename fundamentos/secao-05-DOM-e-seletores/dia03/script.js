@@ -108,4 +108,3 @@ const createDaysOfTheWeek = () => {
 
     insertColor('green');
 
-    
